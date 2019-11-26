@@ -10,6 +10,10 @@ public class Perro {
 	
 	
 	
+	public Perro() {
+		super();
+	}
+
 	public Perro(String nombre, int edad, float peso, String color, boolean estaVivo, String raza) {
 		super();
 		this.nombre = nombre;
